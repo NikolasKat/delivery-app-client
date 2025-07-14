@@ -11,7 +11,8 @@ module.exports = function (api) {
 				{ rootPathSuffix: 'app/', rootPathPrefix: '@/' }
 			],
 			'react-native-reanimated/plugin',
-			'@babel/plugin-proposal-export-namespace-from'
+			'@babel/plugin-proposal-export-namespace-from',
+			['inline-dotenv']
 		]
 	}
 }
